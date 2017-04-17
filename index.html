@@ -73,15 +73,15 @@
           <p class="f5 f4-l lh-copy">Are you serving the world? We’re here to help.</p>
         </div>
       </div>
-      <h2 class="f4 f3-l fw5 white mb4 mb3-l">How we can help</h2>
-      <div class="flex-l f5 f4-l na3 black">
-        <div class="bg-white pa4 w-third-l ma3 br3">
+      <h2 class="f4 f3-l fw5 white mb3">How we can help</h2>
+      <div class="flex-l f5 f4-l na2 na3-l black-90">
+        <div class="bg-white pa3 pa4-l w-third-l ma2 ma3-l br2">
           <p class="ma0"><span class="fw6">Mobile Apps</span> to help your organization work more effectively</p>
         </div>
-        <div class="bg-white pa4 w-third-l ma3 br3">
+        <div class="bg-white pa3 pa4-l w-third-l ma2 ma3-l br2">
           <p class="ma0"><span class="fw6">Websites</span> to reflect your organization’s mission</p>
         </div>
-        <div class="bg-white pa4 w-third-l ma3 br3">
+        <div class="bg-white pa3 pa4-l w-third-l ma2 ma3-l br2">
           <p class="ma0"><span class="fw6">Strategy</span> to help your organization make the best use of technology</p>
         </div>
       </div>
@@ -116,8 +116,16 @@
     </div>
   </section> -->
   <section class="pa4 pv5 pv6-l">
-    <div class="mw7 mw8-l center tc-l">
-      <p class="f3 f2-l ma0">Want to work with us? <a href="hibasillabs@gmail.com" class="link green">hibasillabs@gmail.com</a></p>
+    <div class="mw7 mw8-l center flex-l">
+      <p class="f3 f2-l ma0 mb4 w-40-l pr5-l">Want to work with us?</p>
+      <form action="https://formspree.io/hibasillabs@gmail.com" method="POST" class="f5 f4-l center w-60-l">
+        <input type="hidden" name="_subject" value="Basil Inquiry">
+        <input type="hidden" name="_format" value="plain">
+        <input type="text" name="name" placeholder="Name" required class="input-reset db w-100 pa3 mv2 bw0 br2 bg-light-gray tofino">
+        <input type="email" name="_replyto" placeholder="Email" required class="input-reset db w-100 pa3 mv2 bw0 br2 bg-light-gray tofino">
+        <textarea rows="4" name="message" placeholder="Message" required class="input-reset db w-100 pa3 mv2 bw0 br2 bg-light-gray tofino"></textarea>
+        <input type="submit" value="Send" class="input-reset mt3 bw0 pv3 ph4 br2 bg-green white tofino">
+      </form>
     </div>
   </section>
 </body>
