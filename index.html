@@ -7,68 +7,105 @@
   <link href="tachyons.min.css" rel="stylesheet">
   <title>Basil</title>
   <style>
-    .header-bg {
-      background-image: url(images/header-bg.jpg);
-      background-position: right top;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+    .tofino {
+      font-family: Tofino,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
     }
 
-    .nma1 {
-      margin: -1rem;
+    .green {
+      color: #009049;
+    }
+
+    .bg-green {
+      background: #009049;
+    }
+
+    .bg-lightest-blue {
+      background: #ddefff;
+    }
+
+    .blue {
+      color: #006acc;
+    }
+
+    .light-blue {
+      color: #44a5ff;
+    }
+
+    @media screen and (min-width:60em){
+      .nt5h-l {
+        margin-top: -6rem;
+      }
+
+      .bg-heart-l {
+        background-image: url(images/heart.svg);
+      }
     }
   </style>
 </head>
-<body class="f4 avenir near-black lh-copy">
-  <!-- <header class="bg-near-white pa5 pa6-l header-bg"> -->
-  <header class="pa5 pa6-l">
-    <div class="mw6 mw8-l center">
-      <h1 class="dark-green mt0 mb3 f1">Basil</h1>
+<body class="f4 tofino black-90 lh-copy">
+  <header class="pa4 pv5 pv6-l">
+    <div class="mw7 mw8-l center">
+      <h1 class="green mt0 mb3 f1 fw6">Basil</h1>
       <p class="f3 f2-l ma0 lh-copy">We empower organizations through technology to address the world's most important problems.</p>
     </div>
   </header>
-  <section class="pa4 bg-near-white">
-    <div class="mw6 mw7-l center">
-      <h2 class="f3 fw5 dark-green mv4 tc bb-l bw1-l b--light-gray pb3-l mb5-l">Featured Project</h2>
-      <div class="flex-l items-center mb4">
-        <img src="images/storyshare.png" alt="Story Share" class="w5">
-        <div class="flex-auto pt3 pt0-l pl5-l">
-          <h3 class="ma0 f3 fw5">Story Share</h3>
-          <p class="ma0 f5">For <a href="http://missiononeeleven.com/" class="link underline-hover dark-green">Mission One Eleven</a></p>
-          <p class="mt3 f5 f4-l lh-copy">A mobile app to equip global Christian churches to share Bible stories across language and culture barriers. It encourages real-life interactions between two people by transforming the phone into a dual language display.</p>
+  <section class="mw8-l center pa4 ph5-l mb5-l bg-lightest-blue blue br4-l">
+    <div class="mw7 mw8-l center">
+      <div class="flex-ns items-center mb4">
+        <div class="flex-auto pb5 pb0-ns pr5-ns">
+          <p class="light-blue f6 fw5 ttu tracked mb4 mb5-l">Featured project</p>
+          <h3 class="ma0 f3 fw6">Story Share</h3>
+          <p class="ma0 mt2 f5 f4-l lh-copy">A mobile app to equip Christian churches to share Bible stories across language and culture barriers. It encourages real-life interactions between two people by transforming the phone into a dual language display.</p>
+          <p class="ma0 mt3 f5 light-blue">For <a href="http://missiononeeleven.com/" class="link light-blue underline">Mission One Eleven</a></p>
+        </div>
+        <img src="images/storyshare.png" alt="Story Share" class="w4 w5-l nt5h-l">
+      </div>
+    </div>
+  </section>
+  <section class="pa4 pv5-l bg-green white">
+    <div class="mw7 mw8-l center bg-heart-l bg-left">
+      <div class="flex-l mb5 mb0-l">
+        <div class="w-40-l pr5-l">
+          <h2 class="f3 f2-l fw5 white">Let's impact the world, together</h2>
+        </div>
+        <div class="w-60-l">
+          <p class="f5 f4-l lh-copy">Non-profits tackle some of the world's most important problems. Basil makes first-class technology solutions accessible to them. Our team is powered by volunteers from companies like Airbnb, Google, Facebook, and Salesforce.</p>
+          <p class="f5 f4-l lh-copy">Are you serving the world? We’re here to help.</p>
+        </div>
+      </div>
+      <h2 class="f4 f3-l fw5 white mb4 mb3-l">How we can help</h2>
+      <div class="flex-l f5 f4-l na3 black">
+        <div class="bg-white pa4 w-third-l ma3 br3">
+          <p class="ma0"><span class="fw6">Mobile Apps</span> to help your organization work more effectively</p>
+        </div>
+        <div class="bg-white pa4 w-third-l ma3 br3">
+          <p class="ma0"><span class="fw6">Websites</span> to reflect your organization’s mission</p>
+        </div>
+        <div class="bg-white pa4 w-third-l ma3 br3">
+          <p class="ma0"><span class="fw6">Strategy</span> to help your organization make the best use of technology</p>
         </div>
       </div>
     </div>
   </section>
-  <section class="pa4 pt5">
-    <div class="mw6 mw7-l center">
-      <h2 class="f2 fw5 dark-green mt4">Let's impact the world, together</h2>
-      <p class="f4 f3-l lh-copy">Basil is a non-profit comprised of world-class technologists making digital solutions accessible to global organizations. Our volunteer team of software engineers, designers, and project managers are amongst the most talented professionals in Silicon Valley. We are passionate about ministry and serving through technology.</p>
-      <p class="f4 f3-l lh-copy">Are you looking to serve people and change the world? We’re here to help.</p>
+  <!-- <section class="pa4 bg-light-green">
+    <div class="mw7 mw8-l center">
+      <h2 class="f3 fw5 green mv4">What We Offer</h2>
+      <ul class="pa0 f5 list">
+        <li class="mv3">
+          <span class="fw6">Mobile Apps</span> to help your organization work more effectively
+        </li>
+        <li class="mv3">
+          <span class="fw6">Websites</span> to reflect your organization’s mission
+        </li>
+        <li class="mv3">
+          <span class="fw6">Strategy</span> to help your organization make the best use of technology
+        </li>
+      </ul>
     </div>
-  </section>
-  <section class="pa4">
-    <div class="mw6 mw8-l center">
-      <h2 class="f3 fw5 dark-green tc mv4">What We Offer</h2>
-      <div class="flex-l f5 nma1">
-        <div class="bg-near-white pa5 w-third-l ma3">
-          <h3 class="f4 fw6 mt0 mb2">Mobile Apps</h3>
-          <p class="mid-gray ma0">Interactive tools for your organization</p>
-        </div>
-        <div class="bg-near-white pa5 w-third-l ma3">
-          <h3 class="f4 fw6 mt0 mb2">Websites</h3>
-          <p class="mid-gray ma0">Web presences that reflect your organization’s mission</p>
-        </div>
-        <div class="bg-near-white pa5 w-third-l ma3">
-          <h3 class="f4 fw6 mt0 mb2">Tech Consulting</h3>
-          <p class="mid-gray ma0">Strategy for empowering your organization through technology</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="pa4 pb5">
-    <div class="mw6 mw8-l center">
-      <h2 class="f3 fw5 dark-green tc mt4">Our Volunteers Work at</h2>
+  </section> -->
+  <!-- <section class="pa4 pb5 bg-light-green-gray">
+    <div class="mw7 mw8-l center">
+      <h2 class="f3 fw5 green tc mt4">Our Volunteers Work at</h2>
       <div class="flex flex-wrap justify-center cf near-white">
         <img src="images/logo-airbnb.svg" alt="Airbnb" class="fl ma3 mh4-l">
         <img src="images/logo-facebook.svg" alt="Facebook" class="fl ma3 mh4-l">
@@ -77,10 +114,10 @@
         <img src="images/logo-udacity.svg" alt="Udacity" class="fl ma3 mh4-l">
       </div>
     </div>
-  </section>
-  <section class="bg-green white pa4 pv6">
-    <div class="mw6 mw8-l center tc">
-      <p class="f3 ma0"><a href="hibasillabs@gmail.com" class="link white">Email us</a></p>
+  </section> -->
+  <section class="pa4 pv5 pv6-l">
+    <div class="mw7 mw8-l center tc-l">
+      <p class="f3 f2-l ma0">Want to work with us? <a href="hibasillabs@gmail.com" class="link green">hibasillabs@gmail.com</a></p>
     </div>
   </section>
 </body>
