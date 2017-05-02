@@ -11,24 +11,31 @@
       font-family: Tofino,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
     }
 
+    .blue {
+      color: #006acc;
+    }
+
     .green {
       color: #009049;
+    }
+
+    .light-blue {
+      color: #44a5ff;
     }
 
     .bg-green {
       background: #009049;
     }
 
+    .bg-hero {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(images/hero.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
     .bg-white-to-lightest-blue {
       background: linear-gradient(to bottom, #fff, #ddefff);
-    }
-
-    .blue {
-      color: #006acc;
-    }
-
-    .light-blue {
-      color: #44a5ff;
     }
 
     @media screen and (min-width:60em){
@@ -39,9 +46,9 @@
   </style>
 </head>
 <body class="f4 tofino black-90 lh-copy">
-  <header class="pa4 pv5 pv6-l">
+  <header class="pa4 pv5 pt7-l pb5-l bg-hero white">
     <div class="mw7 mw8-l center">
-      <h1 class="green mt0 mb3 f1 fw6">Basil</h1>
+      <h1 class="mt0 mb3 f1 fw6">Basil</h1>
       <p class="f3 f2-l ma0 lh-copy">We empower non-profits through technology to address the world's most important problems.</p>
     </div>
   </header>
@@ -80,7 +87,7 @@
       </div>
     </div>
   </section>
-  <section class="pa4 pv5-l">
+  <section class="pa4 pv5-l bg-near-black white">
     <div class="mw7 mw8-l center flex-l">
       <h2 class="f3 f2-l fw5 ma0 mb3 w-40-l pr5-l">How can we help your organization?</h2>
       <form action="https://formspree.io/hibasillabs@gmail.com" method="POST" class="f5 f4-l center w-60-l">
