@@ -27,11 +27,8 @@
       background: #009049;
     }
 
-    .bg-hero {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(images/hero.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
+    .bg-transparent-to-black {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     }
 
     .bg-white-to-lightest-blue {
@@ -46,7 +43,12 @@
   </style>
 </head>
 <body class="f4 tofino black-90 lh-copy">
-  <header class="pa4 pv5 pt7-l pb5-l bg-hero white">
+  <div class="fixed top-0 left-0 right-0 w-100 h-100" style="z-index: -1; min-width: 60rem; left: 50%; transform: translateX(-50%)">
+    <div class="aspect-ratio aspect-ratio--16x9" style="min-height: 8rem;">
+      <iframe src="https://player.vimeo.com/video/216119155?wmode=opaque&api=1&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="aspect-ratio--object"></iframe>
+    </div>
+  </div>
+  <header class="pa4 pv5 pt7-l pb5-l mt6 bg-transparent-to-black white">
     <div class="mw7 mw8-l center">
       <h1 class="mt0 mb3 f1 fw6">Basil</h1>
       <p class="f3 f2-l ma0 lh-copy">We empower non-profits through technology to address the world's most important problems.</p>
