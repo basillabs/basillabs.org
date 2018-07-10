@@ -103,7 +103,6 @@ a, a:visited, a:hover, a:active {
 
 .column {
 	width: 80%;
-	/*max-width: 1000px;*/
 	display: flex;
 	justify-content: space-around;
 }
@@ -175,8 +174,8 @@ a, a:visited, a:hover, a:active {
 
 .hero {
 	background-color: #EEF0F3;
-	background: url('assets/hero-image.png') center center no-repeat, url('assets/slant.svg') center bottom no-repeat;
-	background-size:cover, contain;
+	background: url('assets/hero-image.jpg') center center no-repeat;
+	background-size:cover;
 	padding:0;
 	width:100vw;
 	height:100vh;
