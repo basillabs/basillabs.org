@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="66px" viewBox="0 0 70 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-websites</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="basil-website-v1" transform="translate(-540.000000, -2294.000000)">
+            <g id="Features-#2" transform="translate(0.000000, 2082.000000)">
+                <g id="#2" transform="translate(442.000000, 206.000000)">
+                    <g id="icon-websites" transform="translate(92.000000, 0.000000)">
+                        <path d="M34.7915843,10.9518005 C65.3154381,-6.79709777 78.5686573,40.1600521 70.8420411,54.548196 C63.1154249,68.93634 26.4662528,83.09034 14.8462156,63.6245787 C3.22617848,44.1588174 4.26773059,28.7006987 34.7915843,10.9518005 Z" id="icon-bg-1" fill="#E3FFF3" transform="translate(40.500000, 40.069895) rotate(-105.000000) translate(-40.500000, -40.069895) "></path>
+                        <path d="M64.1666667,52.5 C64.1666667,54.3333333 62.6666667,55.8333333 60.8333333,55.8333333 L19.1666667,55.8333333 C17.3333333,55.8333333 15.8333333,54.3333333 15.8333333,52.5 L15.8333333,29.1666667 C15.8333333,27.3333333 17.3333333,25.8333333 19.1666667,25.8333333 L60.8333333,25.8333333 C62.6666667,25.8333333 64.1666667,27.3333333 64.1666667,29.1666667 L64.1666667,52.5 Z" id="Stroke-1" stroke="#1E543C"></path>
+                        <polygon id="Stroke-3" stroke="#1E543C" points="19.1666667 52.5 60.8333333 52.5 60.8333333 29.1666667 19.1666667 29.1666667"></polygon>
+                        <path d="M30,62.5 L50,62.5" id="Stroke-5" stroke="#1E543C" stroke-linecap="round"></path>
+                        <path d="M35.8333333,55.8333333 L35.8333333,62.5" id="Stroke-6" stroke="#1E543C"></path>
+                        <path d="M44.1666667,55.8333333 L44.1666667,62.5" id="Stroke-7" stroke="#1E543C"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

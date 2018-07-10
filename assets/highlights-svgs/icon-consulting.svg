@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="62px" viewBox="0 0 70 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-consulting</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="basil-website-v1" transform="translate(-831.000000, -2292.000000)">
+            <g id="Features-#2" transform="translate(0.000000, 2082.000000)">
+                <g id="#3" transform="translate(735.000000, 204.000000)">
+                    <g id="icon-consulting" transform="translate(91.000000, 0.000000)">
+                        <path d="M29.1558672,7.9833314 C59.6797209,-9.76556684 76.5939766,30.3447958 68.8673604,44.7329397 C61.1407442,59.1210837 34.4745191,83.8958967 22.854482,64.4301353 C11.2344448,44.964374 -1.36798655,25.7322296 29.1558672,7.9833314 Z" id="icon-bg-1" fill="#E3FFF3" transform="translate(40.422239, 37.567567) rotate(78.000000) translate(-40.422239, -37.567567) "></path>
+                        <polygon id="Stroke-1" stroke="#1E543C" stroke-linecap="round" stroke-linejoin="round" points="65.1666667 36.5 36.8333333 36.5 26.8333333 44 26.8333333 36.5 16.8333333 36.5 16.8333333 19.8333333 65.1666667 19.8333333"></polygon>
+                        <polyline id="Stroke-3" stroke="#1E543C" stroke-linecap="round" stroke-linejoin="round" points="22.0871667 43.1666667 16.8338333 43.1666667 16.8338333 58.1666667 46.0005 58.1666667 55.1671667 66.5 55.1671667 58.1666667 65.1671667 58.1666667 65.1671667 43.1666667 37.8488333 43.1666667"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

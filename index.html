@@ -1,106 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="tachyons.min.css" rel="stylesheet">
-  <title>Basil</title>
-  <style>
-    .tofino {
-      font-family: Tofino,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-    }
+	<meta charset="UTF-8">
+	<meta name="referrer" content="origin">
+	<title>BasilLabs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
 
-    .blue {
-      color: #006acc;
-    }
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:300,400|Lato:100,300,400" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    .green {
-      color: #009049;
-    }
-
-    .light-blue {
-      color: #44a5ff;
-    }
-
-    .bg-green {
-      background: #009049;
-    }
-
-    .bg-transparent-to-black {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
-    }
-
-    .bg-white-to-lightest-blue {
-      background: linear-gradient(to bottom, #fff, #ddefff);
-    }
-
-    @media screen and (min-width:60em){
-      .bg-heart-l {
-        background-image: url(images/heart.svg);
-      }
-    }
-  </style>
+	<meta property="og:title" content="Basil Labs">
+	<meta property="og:description" content="Empowering non-profits through technology to address the world's most important problems.">
+	<meta property="og:image" content="http://basiltech.org/assets/intro-image.png">
+	<meta property="og:url" content="http://basiltech.org">
+	<meta name="twitter:card" content="summary_large_image">
 </head>
-<body class="f4 tofino black-90 lh-copy">
-  <div class="fixed top-0 left-0 right-0 w-100 h-100" style="z-index: -1; min-width: 60rem; left: 50%; transform: translateX(-50%); pointer-events: none">
-    <div class="aspect-ratio aspect-ratio--16x9" style="min-height: 8rem;">
-      <iframe src="https://player.vimeo.com/video/216119155?wmode=opaque&api=1&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="aspect-ratio--object"></iframe>
-    </div>
-  </div>
-  <header class="pa4 pv5 pt7-l pb5-l mt6 bg-transparent-to-black white">
-    <div class="mw7 mw8-l center">
-      <h1 class="mt0 mb3 f1 fw6">Basil</h1>
-      <p class="f3 f2-l ma0 lh-copy">We empower non-profits through technology to address the world's most important problems.</p>
-    </div>
-  </header>
-  <section class="pa4 pv5-l bg-green white">
-    <div class="mw7 mw8-l center bg-heart-l bg-left">
-      <div class="flex-l mb5 mb0-l">
-        <h2 class="f3 f2-l fw5 white mv3 w-40-l pr5-l">Let's impact the world, together</h2>
-        <div class="w-60-l">
-          <p class="f5 f4-l lh-copy">The world's most important problems deserve world-class technology solutions. Based in Silicon Valley, our team is composed of volunteers from companies like Airbnb, Google, Facebook, and Salesforce. We employ the same design and engineering techniques used by these companies to help non-profits fulfill their missions.</p>
-          <p class="f5 f4-l lh-copy">Are you serving the world? We’re here to help.</p>
-        </div>
-      </div>
-      <h2 class="f4 fw5 white mb3">How we can help</h2>
-      <div class="flex-l f5 f4-l na2 na3-l black-90">
-        <div class="bg-white pa3 pa4-l w-third-l ma2 ma3-l br2">
-          <p class="ma0"><span class="fw6">Mobile Apps</span> to help your organization work more effectively</p>
-        </div>
-        <div class="bg-white pa3 pa4-l w-third-l ma2 ma3-l br2">
-          <p class="ma0"><span class="fw6">Websites</span> to reflect your organization’s mission</p>
-        </div>
-        <div class="bg-white pa3 pa4-l w-third-l ma2 ma3-l br2">
-          <p class="ma0"><span class="fw6">Strategy</span> to help your organization make the best use of technology</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="pa4 pv5-l bg-white-to-lightest-blue blue">
-    <div class="mw7 mw8-l center">
-      <div class="flex-ns items-center">
-        <div class="flex-auto pb5 pb0-ns pr5-ns">
-          <p class="light-blue f6 fw5 ttu tracked mb4 mb5-l">Featured project</p>
-          <h3 class="ma0 f3 fw6">StoryShare</h3>
-          <p class="ma0 mt2 f5 f4-l measure lh-copy">Joshua Campaign approached us with a vision to help Christian churches to share Bible stories across language barriers. We created a tool that facilitates a shared reading experience in two languages with a single phone.</p>
-        </div>
-        <img src="images/storyshare.png" alt="Story Share" class="w4 w5-l">
-      </div>
-    </div>
-  </section>
-  <section class="pa4 pv5-l bg-near-black white">
-    <div class="mw7 mw8-l center flex-l">
-      <h2 class="f3 f2-l fw5 ma0 mb3 w-40-l pr5-l">How can we help your organization?</h2>
-      <form action="https://formspree.io/hibasillabs@gmail.com" method="POST" class="f5 f4-l center w-60-l">
-        <input type="hidden" name="_subject" value="Basil Inquiry">
-        <input type="hidden" name="_format" value="plain">
-        <input type="text" name="name" placeholder="Name" required class="input-reset db w-100 pa3 mv2 bw0 br2 bg-light-gray tofino">
-        <input type="email" name="_replyto" placeholder="Email" required class="input-reset db w-100 pa3 mv2 bw0 br2 bg-light-gray tofino">
-        <textarea rows="4" name="message" placeholder="Message" required class="input-reset db w-100 pa3 mv2 bw0 br2 bg-light-gray tofino"></textarea>
-        <input type="submit" value="Send" class="input-reset mt3 bw0 pv3 ph4 br2 bg-green white tofino">
-      </form>
-    </div>
-  </section>
-</body>
-</html>
+
+
+<body>
+	<div class="navbar">
+		<div class="navbar-content column">
+			<a href="#" class="logo-nav"><img src="assets/basil-logo.svg" class="logo" alt="Basil Labs"></a>
+			<div class="nav-menu desktop-nav">
+				<a href="#about" class="nav-item">About</a>
+				<a href="#team" class="nav-item">Team</a>
+				<a href="#our-work" class="nav-item">Our Work</a>
+				<a href="#contact" class="nav-item">Contact</a>
+				<a href="https://crazyloveministries.cloverdonations.com/go4/" class="button">Donate</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="main">
+
+		<!-- hero -->
+		<div class="hero row">
+			<div class="hero-floating-box">
+				<div class="floating-box-content">
+					<h1 class="hero-title">Basil Technologies</h1>
+					<p class="hero-copy">Welcome to Basil Technologies – empowering nonprofits to shape a sustainable future.</p>
+					<button class="btn-dark">View our work</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- introduction -->
+		<div class="intro row" id="about">
+			<div class="column intro-content">
+				<div class="intro-image"></div>
+				<div class="intro-text">
+					<h1>Meet Basil</h1>
+					<p>We are a 501(c)3 nonprofit organization that provides pro-bono consulting to influential organizations pioneering a healthier and more environmentally sustainable California.  Our consultants are high achieving outliers from a broad range of industries and academic disciplines with an insatiable desire to serve.</p>
+				</div>
+			</div>
+		</div>
+
+			<!-- team -->
+			<div class="team row" id="team">
+				<div class="column team-content">
+					<div class="team-text">
+						<h1>Our Team</h1>
+						<p>The Basil team is comprised of developers, designers, and product managers from the world's leading technology companies.</p>
+					</div>
+					<div class="team-companies">
+						<div class="team-companies-row">
+							<img class="team-company-img" src="assets/company-logos/facebook.png"/>
+							<img class="team-company-img" src="assets/company-logos/google.png"/>
+							<img class="team-company-img" src="assets/company-logos/Airbnb.png"/>
+							<img class="team-company-img" src="assets/company-logos/dropbox.png"/>
+						</div>
+						<div class="team-companies-row">
+							<img class="team-company-img" src="assets/company-logos/Adobe.png"/>
+							<img class="team-company-img" src="assets/company-logos/Apple.png"/>
+							<img class="team-company-img" src="assets/company-logos/Salesforce.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- highlights (what we do) -->
+			<div class="highlights row" id="our-work">
+				<div class="column highlights-content">
+					<h1>What We Do</h1>
+					<div class="highlights-all">
+						<div class="highlights-block">
+							<img src="assets/highlights-svgs/icon-mobile.svg"></img>
+							<h3>Mobile Apps</h3>
+							<p>We leverage the best in mobile technology, including React Native and more to deliver impactful apps to those on the ground.</p>
+						</div>
+						<div class="highlights-block">
+							<img src="assets/highlights-svgs/icon-websites.svg"></img>
+							<h3>Websites</h3>
+							<p>We help non-profits with branding, web development and marketing so that they can tell their message in the most impactful way.</p>
+						</div>
+						<div class="highlights-block">
+							<img src="assets/highlights-svgs/icon-consulting.svg"></img>
+							<h3>Consulting</h3>
+							<p>Many people are doing impactful and meaningful work accross the globe but have no idea what role technology can play, we can help with that.</p>
+						</div>
+						<div class="highlights-block">
+							<img src="assets/highlights-svgs/icon-hackathons.svg"></img>
+							<h3>Hackathons</h3>
+							<p>Have a huge problem you’re trying to solve? We can organize hackathons in your area of work to mobilize the industry's brightest to deliver prototypes in under a week.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- case studies -->
+			<div class="case-studies row">
+				<div class="column case-studies-content">
+					<div class="case-studies-content-area">
+						<div class="case-studies-text">
+							<h1>StoryShare</h1>
+							<p>Joshua Campaign approached us with a vision to help Christian churches to share Bible stories across language barriers. We created a tool that facilitates a shared reading experience in two languages with a single phone.</p>
+							<button class="btn-dark">View</button>
+						</div>
+						<div></div>
+					</div>
+					<div class="case-studies-image">
+						<img src="assets/case-study-1.png"></img>
+					</div>
+				</div>
+			</div>
+
+			<!-- contact -->
+			<div class="contact row" id="contact">
+				<div class="column contact-content">
+					<h1>Let's do something awesome together</h1>
+					<div class="contact-form">
+					  <form action="https://formspree.io/hibasillabs@gmail.com" method="POST">
+					    <div class="contact-info-row">
+						    <input type="text" id="name" name="name" placeholder="Name">
+						    <input type="email" id="email" name="email" placeholder="Email">
+					    </div>
+					    <textarea type="message" id="message" name="message" placeholder="Message"></textarea>
+					    <input type="submit" value="Send">
+					  </form>
+					</div>
+					<p>Or email us at</p>
+					<a href="mailto:hibasillabs@gmail.com">hibasillabs@gmail.com</a>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<div class="footer row">
+				<div class="column footer-content">
+					<div class="footer-contact">
+						<div id="contact-us">Contact us</div>
+						<div>107 Sagamore St.</div>
+						<div>San Francisco, CA 94112</div>
+						<div class="social">
+							<a href="https://www.facebook.com/basiltech/"><img class="social-icon" src="assets/social-svgs/Facebook.svg"></img></a>
+							<a href="https://twitter.com/BasilLabs"><img class="social-icon" src="assets/social-svgs/Twitter.svg"></img></a>
+							<a href="https://www.instagram.com/basiltech"><img class="social-icon" src="assets/social-svgs/Instagram.svg"></img></a>
+						</div>
+					</div>
+					<div class="footer-buttons">
+						<a href="https://crazyloveministries.cloverdonations.com/go4/" class="button btn-primary">Donate</a>
+						<a href="mailto:hibasillabs@gmail.com" class="button btn-secondary">Join Us</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+	</html>
