@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="67px" viewBox="0 0 65 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="basil-website-v1" transform="translate(-249.000000, -2291.000000)">
+            <g id="Features-#2" transform="translate(0.000000, 2082.000000)">
+                <g id="#1" transform="translate(150.000000, 209.000000)">
+                    <g id="icon-mobile" transform="translate(99.000000, 0.000000)">
+                        <path d="M26.7915843,3.95180047 C57.3154381,-13.7970978 70.5686573,33.1600521 62.8420411,47.548196 C55.1154249,61.93634 18.4662528,76.09034 6.84621565,56.6245787 C-4.77382152,37.1588174 -3.73226941,21.7006987 26.7915843,3.95180047 Z" id="icon-bg-1" fill="#E3FFF3"></path>
+                        <path d="M47.1666667,56.1666667 C47.1666667,58.9166667 44.9166667,61.1666667 42.1666667,61.1666667 L23.8333333,61.1666667 C21.0833333,61.1666667 18.8333333,58.9166667 18.8333333,56.1666667 L18.8333333,17.8333333 C18.8333333,15.0833333 21.0833333,12.8333333 23.8333333,12.8333333 L42.1666667,12.8333333 C44.9166667,12.8333333 47.1666667,15.0833333 47.1666667,17.8333333 L47.1666667,56.1666667 Z" id="Stroke-1" stroke="#1E543C" stroke-linecap="round"></path>
+                        <path d="M18.8333333,21.1666667 L47.1666667,21.1666667" id="Stroke-3" stroke="#1E543C" stroke-linecap="round"></path>
+                        <path d="M18.8333333,52.8333333 L47.1666667,52.8333333" id="Stroke-5" stroke="#1E543C" stroke-linecap="round"></path>
+                        <path d="M27.1666667,17.8333333 L38.8333333,17.8333333" id="Stroke-7" stroke="#1E543C" stroke-linecap="round"></path>
+                        <path d="M34.6666667,57 C34.6666667,57.92 33.9216667,58.6666667 33,58.6666667 C32.0783333,58.6666667 31.3333333,57.92 31.3333333,57 C31.3333333,56.08 32.0783333,55.3333333 33,55.3333333 C33.9216667,55.3333333 34.6666667,56.08 34.6666667,57 Z" id="Stroke-9" stroke="#1E543C" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
