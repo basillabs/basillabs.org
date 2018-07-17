@@ -26,6 +26,24 @@ img {
 h1 {
   font-size: 50px; }
 
+.skipnav {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  height: 1px;
+  width: 1px;
+  text-align: left;
+  overflow: hidden;
+  z-index: 2;
+  padding: 26px;
+  background: #FFF; }
+  .skipnav:active, .skipnav:focus, .skipnav:hover {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible; }
+
 .button {
   width: 150px;
   border: 1px solid #55CD99;
@@ -503,5 +521,3 @@ input[type=submit] {
 
   .intro-text {
     width: 45%; } }
-
-/*# sourceMappingURL=styles.css.map */
