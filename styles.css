@@ -111,7 +111,11 @@ a, a:visited, a:hover, a:active {
   align-items: center; }
 
 .navbar {
+<<<<<<< HEAD
   z-index: 1000;
+=======
+  z-index: 100;
+>>>>>>> 978b1d1164e169d9a169c5971f64337fcda7089b
   height: 75px;
   width: 100%;
   background-color: white;
@@ -322,6 +326,8 @@ a, a:visited, a:hover, a:active {
         width: 100%; } }
 
 .contact {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #F6F6F8; }
 
 .contact-content {
@@ -334,7 +340,8 @@ a, a:visited, a:hover, a:active {
 .contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-top: 60px; }
 
 .contact-info-row {
   display: flex;
@@ -369,11 +376,9 @@ input[type=submit] {
 
 .footer {
   background-color: #332E56;
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
-.footer .column {
-  justify-content: center; }
+  padding: 60px 0; }
+  .footer .column {
+    justify-content: center; }
 
 .footer-content {
   display: flex;
@@ -554,5 +559,3 @@ input[type=submit] {
 
   .intro-text {
     width: 45%; } }
-
-/*# sourceMappingURL=styles.css.map */

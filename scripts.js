@@ -57,11 +57,12 @@ $(function() {
   });
 
   var topMenuHeight = $('.navbar').outerHeight();
+  var offset = 20;
   var lastId;
 
   function updateScrolledToTab() {
     // Container scroll position:
-    var fromTop = $(this).scrollTop() + topMenuHeight;
+    var fromTop = $(this).scrollTop() + topMenuHeight + offset;
 
     var current = scrollItems.map(function() {
       if ($(this).offset().top < fromTop) {
@@ -72,19 +73,13 @@ $(function() {
     var last = current[current.length - 1];
     var id = last && last.length ? last[0].id : '';
     if (id !== lastId) {
+      // Just scrolled into a new section.
       lastId = id;
       menuItems.removeClass('active');
       menuItems.filter("[href='#" + id + "']").addClass('active');
       history.replaceState({}, '', '#' + id);
-    }
 
-    anime({
-        targets: "#blob path",
-        easing: "easeOutQuad",
-        duration: 2000,
-        direction: "alternate",
-        loop: false,
-         d: [
+      var blobChanges = [
         {
           value:
           "M82.3125163,136.904969 C-84.4024933,338.95148 25.7539357,438.00277 202.749483,447.640024 C379.74503,457.277278 492.268482,270.209901 646.499982,270.209901 C800.731482,270.209901 865.875405,133.406193 814.941434,65.5627367 C764.007464,-2.28071919 249.027526,-65.141543 82.3125163,136.904969 Z"
@@ -97,14 +92,22 @@ $(function() {
           value:
           "M132.921875,21.21875 C-21.953125,89.0622059 -27.1769723,159.743492 45.5365139,276.664766 C118.25,393.586039 415.182403,445.156454 497.177139,393.586039 C579.171875,342.015625 476.355845,201.468456 425.421875,133.625 C374.487905,65.7815441 287.796875,-46.6247059 132.921875,21.21875 Z"
         }
-        ],
+      ];
+      var change = blobChanges[Math.floor(Math.random() * blobChanges.length)];
+
+      anime({
+        targets: "#blob path",
+        easing: "easeOutQuad",
+        duration: 2000,
+        direction: "alternate",
+        loop: false,
+        d: change,
         // update: function() {
-          
+
         // }
       });
+    }
   }
-
-
 
   updateScrolledToTab();
   $(window).scroll(debounce(updateScrolledToTab, 50));
