@@ -400,6 +400,8 @@ a, a:visited, a:hover, a:active {
 
 // contact______________________________________________________________________________________________
 .contact {
+	padding-top: 200px;
+	padding-bottom: 200px;
 	background-color: $bg-main;
 }
 
@@ -417,6 +419,7 @@ a, a:visited, a:hover, a:active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 60px;
 }
 
 .contact-info-row {
@@ -458,13 +461,14 @@ input[type=submit] {
 
 .footer {
 	background-color: #332E56;
-	padding-top: 50px;
-	padding-bottom: 50px; }
+	padding: 60px 0;
 
-
-.footer .column {
-	justify-content: center;
+	.column {
+		justify-content: center;
+	}
 }
+
+
 
 .footer-content {
 	display: flex;
