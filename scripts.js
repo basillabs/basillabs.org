@@ -106,10 +106,6 @@ $(function() {
     }
   }
 
-  $(window).scrollTop(1000, function() {
-    console.log('wassup');
-  });
-
   updateScrolledToTab();
   $(window).scroll(debounce(updateScrolledToTab, 50));
 });
