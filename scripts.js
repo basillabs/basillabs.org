@@ -102,12 +102,13 @@ $(function() {
         direction: "alternate",
         loop: false,
         d: change,
-        // update: function() {
-
-        // }
       });
     }
   }
+
+  $(window).scrollTop(1000, function() {
+    console.log('wassup');
+  });
 
   updateScrolledToTab();
   $(window).scroll(debounce(updateScrolledToTab, 50));
