@@ -42,6 +42,10 @@ h1 {
 	font-size:50px;
 }
 
+.row div {
+	z-index:5;
+}
+
 .skipnav {
   position: absolute;
   top: -1000px;
@@ -132,7 +136,7 @@ a, a:visited, a:hover, a:active {
 
 // navbar_____________________________________________________________________________________________
 .navbar {
-	z-index: 1;
+	z-index: 10;
 	height: 75px;
 	width: 100%;
 	background-color: white;
@@ -193,6 +197,17 @@ a, a:visited, a:hover, a:active {
 	}
 }
 
+
+// svgmorphing________________________________________________________
+.morphblob {
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	z-index:1;
+}
 // hero______________________________________________________________________________________________
 
 .hero {
@@ -206,6 +221,7 @@ a, a:visited, a:hover, a:active {
 	flex-direction:row;
 	justify-content:flex-end;
 	align-items:center;
+	z-index: 10;
 }
 
 .hero-title {
@@ -217,9 +233,10 @@ a, a:visited, a:hover, a:active {
 	max-width:400px;
 	margin-bottom:60px;
 	font-size:24px;
-	font-weight: 100;
+	font-weight: 300;
 	line-height:30px;
 }
+
 
 
 // introduction______________________________________________________________________________________________

@@ -26,6 +26,9 @@ img {
 h1 {
   font-size: 50px; }
 
+.row div {
+  z-index: 5; }
+
 .skipnav {
   position: absolute;
   top: -1000px;
@@ -99,7 +102,7 @@ a, a:visited, a:hover, a:active {
   justify-content: space-around; }
 
 .navbar {
-  z-index: 1;
+  z-index: 10;
   height: 75px;
   width: 100%;
   background-color: white;
@@ -147,6 +150,15 @@ a, a:visited, a:hover, a:active {
       position: absolute;
       border-bottom: 3px solid #55CD99; }
 
+.morphblob {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
+
 .hero {
   background-color: #EEF0F3;
   background: url("assets/hero-image.jpg") center center no-repeat;
@@ -157,7 +169,8 @@ a, a:visited, a:hover, a:active {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center; }
+  align-items: center;
+  z-index: 10; }
 
 .hero-title {
   font-size: 50px;
@@ -167,7 +180,7 @@ a, a:visited, a:hover, a:active {
   max-width: 400px;
   margin-bottom: 60px;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 30px; }
 
 .introduction {
@@ -521,3 +534,5 @@ input[type=submit] {
 
   .intro-text {
     width: 45%; } }
+
+/*# sourceMappingURL=styles.css.map */
