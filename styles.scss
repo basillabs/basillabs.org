@@ -221,6 +221,7 @@ a, a:visited, a:hover, a:active {
 // hero______________________________________________________________________________________________
 
 .hero {
+	position: relative;
 	background-color: #EEF0F3;
 	background: url('assets/hero-image.jpg') center center no-repeat;
 	background-size:cover;
@@ -231,7 +232,7 @@ a, a:visited, a:hover, a:active {
 	flex-direction:row;
 	justify-content:flex-end;
 	align-items:center;
-	z-index: 10;
+	z-index: 100;
 }
 
 .hero-title {
@@ -473,6 +474,8 @@ input[type=submit] {
 .footer {
 	background-color: #332E56;
 	padding: 60px 0;
+	z-index: 1000;
+	position: absolute;
 
 	.column {
 		justify-content: center;
@@ -534,10 +537,12 @@ input[type=submit] {
 	.navbar-content {
 		justify-content:center;
 	}
-
+	
+	.morphblob {
+		display:none;
+	}
 	// hero________
-	.hero {
-		height:90vh;
+	.hero {		
 	}
 
 	.hero-floating-box {
@@ -563,7 +568,7 @@ input[type=submit] {
 
 	// intro________
 	.intro {
-
+		// position:relative;
 	}
 
 	.intro-content {
