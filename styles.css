@@ -101,12 +101,17 @@ a, a:visited, a:hover, a:active {
   display: flex;
   justify-content: space-around; }
 
+.loader {
+  width: 100vw;
+  height: 100vh;
+  background-color: oldlace;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .navbar {
-<<<<<<< HEAD
-  z-index: 10;
-=======
-  z-index: 100;
->>>>>>> b6babde793361853b851adb221920b11f7ad88fb
+  z-index: 1000;
   height: 75px;
   width: 100%;
   background-color: white;

@@ -132,10 +132,21 @@ a, a:visited, a:hover, a:active {
 	display: flex;
 	justify-content: space-around;
 }
+// loader_____________________________________________________________________________
+.loader {
+	width:100vw;
+	height:100vh;
+	background-color:oldlace;
+	z-index:10000;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
 
 // navbar_____________________________________________________________________________________________
 .navbar {
-	z-index: 100;
+	z-index: 1000;
 	height: 75px;
 	width: 100%;
 	background-color: white;
