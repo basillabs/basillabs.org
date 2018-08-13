@@ -17,7 +17,8 @@ h3 {
 
 p {
   font-family: 'Lato', sans-serif;
-  color: #332E56; }
+  color: #332E56;
+  line-height: 26px; }
 
 img {
   width: auto;
@@ -104,12 +105,39 @@ a, a:visited, a:hover, a:active {
 .loader {
   width: 100vw;
   height: 100vh;
-  background-color: oldlace;
+  background-color: #332E56;
   z-index: 10000;
+  position: fixed;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
+.basil-logo-white {
+  width: 200px;
+  height: auto;
+  margin-bottom: 30px; }
+
+.loadbar-bg {
+  height: 3px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px); }
+
+.loadbar {
+  height: 3px;
+  width: 500px;
+  background-color: white;
+  animation: load 1.8s ease;
+  -webkit-animation: load 1.8s ease;
+  -moz-animation: load 1.8s ease;
+  -o-animation: load 1.8s ease; }
+
+@keyframes load {
+  from {
+    width: 0; }
+  to {
+    width: 500px; } }
 .navbar {
   z-index: 1000;
   height: 75px;
@@ -166,7 +194,8 @@ a, a:visited, a:hover, a:active {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1; }
+  z-index: 1;
+  display: none; }
 
 .hero {
   position: relative;
@@ -222,7 +251,8 @@ a, a:visited, a:hover, a:active {
   width: 45%; }
 
 .intro-text {
-  width: 45%; }
+  width: 45%;
+  line-height: 28pxpx; }
 
 .team {
   background-color: #F6F6F8; }

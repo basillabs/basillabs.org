@@ -1,5 +1,13 @@
 // Navigation:
 $(function() {
+  // site loader controls
+  function siteLoad() {
+    $('.loader').fadeOut();
+    $('.morphblob').fadeIn().delay(2000);
+  }
+
+  setTimeout(siteLoad, 1800);
+
   // Highlight active tab:
   $('.nav-menu').on('click', '.nav-item', function(event) {
 
