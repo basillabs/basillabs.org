@@ -1,3 +1,5 @@
+#  THIS REPO IS depreciated now, the new basiltech.org repo is at: https://github.com/basiltech/basiltech.org
+
 # Basil
 
 Basil Labs 2018 Website
